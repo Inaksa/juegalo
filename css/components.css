@@ -1,0 +1,114 @@
+.boton {
+	display: block;
+	width: fit-content;
+	min-width: 200px;
+	background-color: var(--navTextColor);
+	color: var(--navBackground);
+	padding: 1rem;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-decoration: none;
+	text-align: center;
+
+	a {
+		color: var(--navBackground);
+		font-size: 1rem;
+	}
+	
+	 /* Agregar efecto de botón presionado */
+	 transition: transform 0.3s, box-shadow 0.3s;
+	 &:hover {
+		 transform: scale(1.05);
+		 box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+	 }
+}
+
+.list-gallery {
+    width: fit-content;
+    max-width: 100%;
+    /*height: 60%;*/
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    gap: 1rem 0;
+    margin: auto;
+    padding: 15px;
+
+    .list-item {
+        margin-left: 10px;
+        margin-right: 10px;
+        overflow: hidden;
+        gap: 0rem;
+        padding: unset;
+        width: 250px;
+        align-content: center;
+        height: 100%;
+    
+        img {
+            border-radius: 10px;
+            width: 90%;
+            height: auto;
+/*
+            box-shadow: 
+            0 0.1rem 0.2rem rgb(0 0 0 / 0%),
+            0 0.1rem 0.5rem rgb(0 0 0 / 30%),
+            0 0.2rem 1.5rem rgb(0 0 0 / 40%);
+
+            box-shadow: 
+            rgba(0, 0, 0, 0.4 ) 0px 0px,
+            rgba(0, 0, 0, 0.05) 0px 10px;
+*/
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            line-height: 1.6rem;
+            width: 100%;
+        }
+    }
+}
+
+.shadow {
+    box-shadow: 
+        rgba(0, 0, 0, 0.20) 0px 1px 1px, 
+        rgba(0, 0, 0, 0.20) 0px 2px 2px, 
+        rgba(0, 0, 0, 0.20) 0px 4px 4px, 
+        rgba(0, 0, 0, 0.20) 0px 8px 8px, 
+        rgba(0, 0, 0, 0.20) 0px 16px 16px;
+}
+
+.advance_button {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: var(--bgColor);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+    justify-content: center;
+    align-content: center;
+
+    i {
+        display: block;
+        margin: auto;
+        color: var(--bodyColor);
+    }
+}
+
+.panel {
+        width: fit-content;
+        min-width: 300px;
+        height: fit-content;
+        margin: auto;
+        background-color: var(--bgColor);
+        color: var(--bodyColor);
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:20px;
+}

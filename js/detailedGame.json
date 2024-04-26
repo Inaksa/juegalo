@@ -1,0 +1,89 @@
+[
+  {
+    "publishers" : [
+      "PlayStation PC LLC"
+    ],
+    "genres" : [
+      {
+        "description" : "Acción",
+        "id" : "1"
+      }
+    ],
+    "steam_appid" : 553850,
+    "name" : "HELLDIVERS™ 2",
+    "background" : "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/553850\/page_bg_generated_v6b.jpg?t=1709666906",
+    "movies" : [
+      {
+        "webm" : {
+          "max" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256994373\/movie_max_vp9.webm?t=1705428404",
+          "480" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256994373\/movie480_vp9.webm?t=1705428404"
+        },
+        "id" : 256994373,
+        "mp4" : {
+          "max" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256994373\/movie_max.mp4?t=1705428404",
+          "480" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256994373\/movie480.mp4?t=1705428404"
+        },
+        "highlight" : true,
+        "name" : "Launch Trailer (US-EN)"
+      },
+      {
+        "id" : 256992403,
+        "webm" : {
+          "480" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256992403\/movie480_vp9.webm?t=1704816615",
+          "max" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256992403\/movie_max_vp9.webm?t=1704816615"
+        },
+        "mp4" : {
+          "480" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256992403\/movie480.mp4?t=1704816615",
+          "max" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256992403\/movie_max.mp4?t=1704816615"
+        },
+        "highlight" : true,
+        "name" : "PC Trailer (US-EN)"
+      },
+      {
+        "id" : 256971096,
+        "name" : "Pre-Purchase Trailer (US_EN)",
+        "webm" : {
+          "480" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256971096\/movie480_vp9.webm?t=1695379302",
+          "max" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256971096\/movie_max_vp9.webm?t=1695379302"
+        },
+        "mp4" : {
+          "max" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256971096\/movie_max.mp4?t=1695379302",
+          "480" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256971096\/movie480.mp4?t=1695379302"
+        },
+        "highlight" : true
+      },
+      {
+        "mp4" : {
+          "max" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256957675\/movie_max.mp4?t=1691444486",
+          "480" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256957675\/movie480.mp4?t=1691444486"
+        },
+        "webm" : {
+          "max" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256957675\/movie_max_vp9.webm?t=1691444486",
+          "480" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256957675\/movie480_vp9.webm?t=1691444486"
+        },
+        "id" : 256957675,
+        "highlight" : true,
+        "name" : "Co-op & Combat Trailer (US-EN)"
+      },
+      {
+        "webm" : {
+          "480" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256954185\/movie480_vp9.webm?t=1687299549",
+          "max" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256954185\/movie_max_vp9.webm?t=1687299549"
+        },
+        "mp4" : {
+          "max" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256954185\/movie_max.mp4?t=1687299549",
+          "480" : "http:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/256954185\/movie480.mp4?t=1687299549"
+        },
+        "id" : 256954185,
+        "highlight" : true,
+        "name" : "Reveal Trailer (US-EN)"
+      }
+    ],
+    "header_image" : "https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/553850\/header.jpg?t=1709666906",
+    "short_description" : "La última línea ofensiva de la galaxia. Enlístate en los Helldivers y únete a la lucha por la libertad en una galaxia hostil en este juego de disparos en tercera persona frenético y feroz.",
+    "developers" : [
+      "Arrowhead Game Studios"
+    ],
+    "detailed_description" : "<h1>Digital Deluxe Edition<\/h1><p><img src=\"https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/553850\/extras\/SCE_1x1_MX_AN.jpg?t=1709666906\" \/><br><br>La edición incluye:<br><ul class=\"bb_ul\"><li>Conjunto de armadura &quot;DP-53 Salvador de los libres&quot;.<br><\/li><li>Capa &quot;Voluntad del pueblo&quot;.<br><\/li><li>Arma &quot;MP-98 Caballero&quot;.<br><\/li><li>Estatus de Superciudadano.<br><\/li><li>Juego de la nave Héroe de estratagemas.<br><\/li><li>Bono de guerra premium &quot;Veteranos templados&quot;.<\/li><\/ul><\/p><br><h1>Acerca del juego<\/h1><img src=\"https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/553850\/extras\/SuperEarthSTEAM.gif?t=1709666906\" \/><br>La última línea ofensiva de la galaxia.<br><br>Enlístate en los Helldivers y únete a la lucha por la libertad en una galaxia hostil en este juego de disparos en tercera persona frenético y feroz.<br><br><img src=\"https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/553850\/extras\/BugAssaultSTEAM.gif?t=1709666906\" \/><h2 class=\"bb_tag\">TRANSMISIÓN URGENTE - FUERZAS ARMADAS DE LA SUPERTIERRA<\/h2>Libertad. Paz. Democracia. <br>Tus derechos inalienables por ser ciudadano de la Supertierra. Los pilares de nuestra civilización. <br>De nuestra existencia. <br>Pero la guerra no cesa. Todo está bajo amenaza una vez más.<br>Únete a la fuerza militar más poderosa de la galaxia y conviértela en un lugar libre y seguro para vivir.<br><br><img src=\"https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/553850\/extras\/StratagemSTEAM.gif?t=1709666906\" \/><h2 class=\"bb_tag\">CONVIÉRTETE EN LEYENDA<\/h2>Serás parte de un escuadrón de cuatro Helldivers y te asignarán misiones estratégicas.<br>Cuídense las espaldas; el fuego amigo es una realidad desafortunada de la guerra, pero sin trabajo en equipo la victoria es imposible.*<br><br><img src=\"https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/553850\/extras\/EagleExplosionsSTEAM.gif?t=1709666906\" \/><h2 class=\"bb_tag\">EQUIPAMIENTO<\/h2>Haz que llueva la libertad desde el cielo, entra sigilosamente en territorio enemigo o carga con valor hacia las fauces del combate.<br>Tú decides cómo quieres que llegue la libertad; tendrás acceso a mucho armamento explosivo, armaduras protectoras y estratagemas que puedan cambiar el curso de la batalla... la joya en el arsenal de todo Helldiver.<br><br><img src=\"https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/553850\/extras\/ChargerChargeSTEAM.gif?t=1709666906\" \/><h2 class=\"bb_tag\">SOLICITUD<\/h2>La Supertierra premia tus esfuerzos con las valiosas solicitudes. Úsalas para acceder a recompensas para ti, tu escuadrón, tu nave destructora y la campaña de guerra.<br><br><img src=\"https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/553850\/extras\/StriderSTEAM.gif?t=1709666906\" \/><h2 class=\"bb_tag\">AMENAZAS<\/h2>Todas las criaturas de todos los planetas quieren matarnos. Esa es la gravedad de la situación.<br>Cada enemigo tiene sus propias características, tácticas y comportamientos impredecibles, pero todos luchan ferozmente sin miedo ni moral.<br><br><img src=\"https:\/\/cdn.akamai.steamstatic.com\/steam\/apps\/553850\/extras\/SquadRunningSTEAM.gif?t=1709666906\" \/><h2 class=\"bb_tag\">LA GUERRA GALÁCTICA<\/h2>Captura planetas enemigos, detén invasiones y completa misiones para ayudar a nuestra causa.<br>El destino de esta guerra se decidirá según las acciones de todos.<br>Si no luchamos juntos, moriremos."
+  }
+]

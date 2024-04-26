@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juegalo</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/components.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fb469aaf1d.js" crossorigin="anonymous"></script>
+        <script src="./js/constants.js" defer></script>
+        <script src="./js/loadIncludedGames.js" defer></script>
+        <script src="./js/loadHeader.js" defer></script>
+        <script src="./js/loadFooter.js" defer></script>    
+    </head>
+    <body>
+        <header class="header"></header> 
+        <main class="main">
+            <section class="splash">
+                <div class="container">
+                    <h1>¿Tenés una compu que no le da para correr los ultimos juegos?<br/>¿No te alcanzó para la RTX 4090?</h1>
+                    <h2>Cientos de juegos en un en un solo lugar, streameados a tu compu.<br/>Disfruta donde quieras con la maquina que quieras.</h2>
+                    <a href="./pages/registrarse.html"><div class ="boton">Registrate</div></a>
+                </div>
+                <div class="advance_button">
+                    <a href="#gamelist"><i class="fa-regular fa-circle-down"></i></a>
+                </div>
+            </section>
+            <section class="gamelist" id="gamelist">
+                <h1 class="roboto-medium">Algunos de los juegos incluídos</h1>
+                <div class="container">
+                </div>
+            </section>
+        </main>
+        <footer class="footer"></footer>
+    </body>
+</html>
