@@ -9,13 +9,15 @@ body {
 }
 
 form {
-    width: calc(100% - 2rem);
+    max-width: 90%;
+    min-width: 30%;
     margin-left: 1rem;
     
     label {
         display: flex;
         margin-top: 0.5rem;
         font-size: 1.1rem;
+        font-weight: 700;
     }
 
     input {
