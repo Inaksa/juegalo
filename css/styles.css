@@ -105,6 +105,10 @@ section {
 }
 
 .gamelist {
+	background:linear-gradient(to right top, #FFFFFF8a, #FFFFFF8a), url(../assets/img/splash-bg2.jpg);
+	background-size: cover;
+	background-position: center;	
+
 	h1 {
 		font-size: 2rem;
 	}

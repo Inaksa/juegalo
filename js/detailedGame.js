@@ -34,9 +34,11 @@ function createDescription(game, parent) {
     root.appendChild(title);
 
     // Game Description
-    var description = createElement('p', 'roboto-regular');
-    description.innerHTML = game.short_description;
-    root.appendChild(description);
+    //for (let idx = 0; idx < 10; idx++) {
+        var description = createElement('p', 'roboto-regular');
+        description.innerHTML = game.short_description;
+        root.appendChild(description);
+    //}
 
     // Game Publisher
     const techDataContainer = createElement('div', 'techDataContainer');
