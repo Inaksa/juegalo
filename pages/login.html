@@ -31,18 +31,20 @@
                             id="user" 
                             name="user"
                             autocomplete="off"
-                            required
-                        ><br>
+                        >
+                        <div id="errortext-user"></div>
+                        <br>
                         <label for="pass">Contraseña</label><input 
                             type="password" 
                             id="pass" 
                             name="pass" 
                             autocomplete="new-password" 
                             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                            required
-                        ><br>
+                        >
+                        <div id="errortext-pass"></div>
+                        <br>
                     </div>
-                    <div class="boton" style="margin-top: 40px; margin-bottom: 10px; margin-left: auto; margin-right: auto;" onclick="{ console.log('Login') }";">Ingresar</div>
+                    <div class="boton" style="margin-top: 40px; margin-bottom: 10px; margin-left: auto; margin-right: auto;" id="submitLogin">Ingresar</div>
                     <h4 style="flex-grow: 1; text-align: center;"><a href="../pages/registrarse.html">Suscribirme</a></h4>
                 </form>
             </section>
@@ -51,4 +53,5 @@
             <p style="text-align: center">Copyright 2024 - Alex Designs</p>
         </footer>
     </body>
+    <script src="../js/ScriptsPages/login.js"></script>
 </html>

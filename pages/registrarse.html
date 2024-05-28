@@ -28,36 +28,50 @@
             <section class="form">
                 <form>
                     <div class="fields">
-                        <label for="fname">Primer nombre</label><input type="text" id="fname" name="fname" autocomplete="given-name"><br>
-                        <label for="lname">Apellido</label><input type="text" id="lname" name="lname" autocomplete="family-name"><br>
+                        <label for="fname">Primer nombre</label><input type="text" id="fname" name="fname" autocomplete="given-name">
+                        <div id="errortext-nombre"></div>
+                        <br>
+
+                        <label for="lname">Apellido</label><input type="text" id="lname" name="lname" autocomplete="family-name">
+                        <div id="errortext-apellido"></div>
+                        <br>
+                        
                         <label for="user">Usuario</label><input 
                             type="text" 
                             id="user" 
                             name="user"
                             autocomplete="off"
-                            required
-                        ><br>
+                        >
+                        <div id="errortext-user"></div>
+                        <br>
+
                         <label for="pass">Contraseña</label><input 
                             type="password" 
                             id="pass" 
                             name="pass" 
                             autocomplete="new-password" 
                             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                            required
-                        ><br>
-                        <label for="pass">Confirmar</label><input 
+                        >
+                        <div id="errortext-pass"></div>
+                        <br>
+
+                        <label for="confirm_pass">Confirmar</label><input 
                             type="password" 
                             id="confirm_pass"
                             name="confirm_pass" 
                             autocomplete="new-password" 
-                            required
-                        ><br>
+                        >
+                        <div id="errortext-confirmarpass"></div>
+                        <br>
+
                         <div class="terms">
                             <input type="checkbox" id="accept" name="accept" style="flex-grow: 0; width: 20px; height: 20px;">
                             <h4 style="flex-grow: 1;">Acepto los terminos y condiciones de la subscripción</h4>
                         </div>
+                        <div id="errortext-aceptar"></div>
+                        
                     </div>
-                    <div class="boton" style="margin-top: 40px; margin-bottom: 10px; margin-left: auto; margin-right: auto;" onclick="{ console.log('Click') }";">Anotame!</div>
+                    <div class="boton" style="margin-top: 40px; margin-bottom: 10px; margin-left: auto; margin-right: auto;" id="submitLogin"">Anotame!</div>
                     <h4 style="flex-grow: 1; text-align: center;"><a href="../pages/login.html">Ya tengo cuenta</a></h4>
                 </form>
             </section>
@@ -65,5 +79,6 @@
         <footer class="footer" style="position: fixed; bottom: 0px; width: 100%">
             <p style="text-align: center">Copyright 2024 - Alex Designs</p>
         </footer>
+        <script src="../js/ScriptsPages/register.js"></script>
     </body>
 </html>
