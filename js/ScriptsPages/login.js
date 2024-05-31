@@ -1,11 +1,23 @@
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form');
+    let loggedUser = "";
 
     document.getElementById("submitLogin").addEventListener("click", function () {
         if (!validateForm()) {
-            console.log('El formulario no es válido. Por favor, corrige los errores.');
+            Swal.fire({
+                title: 'Error!',
+                text: 'El formulario no es valido',
+                icon: 'error',
+                confirmButtonText: 'Aceptar'
+            })
             event.preventDefault(); // Evita que el formulario se envíe si hay errores de validación
         } else {
+            Swal.fire({
+                title: 'Hola!',
+                text: 'Bienvenido de vuelta, ' + loggedUser,
+                icon: 'success',
+                confirmButtonText: 'Aceptar'
+            })
             console.log('El formulario es válido. Enviar datos...');
         }
     });
@@ -49,6 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return false;
         } else {
             errorField.innerText = "";
+            loggedUser = value;
             return true;
         }
     };
